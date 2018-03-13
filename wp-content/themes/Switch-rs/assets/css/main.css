@@ -1,0 +1,766 @@
+html {
+  font-size: 100%;
+  font-family: 'Montserrat';
+}
+body{
+  margin:0;
+  list-style-type: none;
+}
+header{
+  text-align: center;
+}
+main{
+  text-align: center;
+}
+.header-container{
+  left: 0;
+  right: 0;
+}
+nav{
+  box-shadow: inset 0px 12px 15px 0px rgba(50, 50, 50, 0.6);
+  padding-top: 0.5rem;
+  outline: 1rem;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  z-index: 9;
+  justify-content: space-between;
+}
+.logo img {
+  padding-right: 5.8rem;
+}
+.ul .icon{
+  display: none;
+  background-color: #55d155;
+}
+.ul a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+.ul a:hover:not(:first-child){
+  border-color: #55d155;
+  border-style: solid;
+  border-width: 1rem 0 0 0;
+}
+.background{
+  background: url("../images/background.jpg") #CCC no-repeat center;
+  display: flex;
+  background-size: cover;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  }
+.background-text{
+  padding-top: 13rem;
+}
+.background-button{
+  padding-bottom: 11rem;
+}
+.background-button2{
+  padding-bottom: 1.3rem;
+}
+h1{
+  color: white;
+  font-size: 4rem;
+  font-family: 'Montserrat-Regular';
+  margin-bottom: 0;
+}
+.inputbar i {
+  position: absolute;
+  margin-left: 11rem;
+  margin-top: 0.3rem;
+  z-index: 9;
+  color: grey;
+}
+.inputbar input{
+  border-radius: 1rem;
+  border-style: none;
+  height: 1.5rem;
+  width: 60%;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  opacity: .9;
+  margin-right: 4rem;
+}
+.button1{
+  border-radius: 25px;
+  background-color: #54D054;
+  color: white;
+  font-size: 1.5em;
+  border-style: none;
+  height: 2em;
+  width: 15.5rem;
+  cursor: pointer;
+}
+.button2{
+  font-size: 1rem;
+  border-radius: 1rem;
+  color: black;
+  border-style: none;
+  height: 1.5rem;
+  padding-right: 0.5rem;
+  opacity: .8;
+  cursor: pointer;
+}
+/* ----PIRMAS TURINIO BLOKAS---- */
+.mcoil1{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.mcoil1-container{
+  width: 100%;
+}
+.mcoil1up{
+  color: #828181;
+  text-decoration: none;
+  padding-bottom: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+h3 {
+  font-weight: lighter;
+}
+.mcoil1down{
+  display: flex;
+}
+.inner-coil {
+  color: #828181;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.inner-coil h5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.inner-coil img{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.mcoil1 button{
+  border-radius: 1rem;
+  font-weight: bold;
+  background-color: #54D054;
+  color: white;
+  border-style: none;
+  font-size: 1rem;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+/* ----ANTRAS TURINIO BLOKAS---- */
+.mcoil2{
+  background-color: #54D054;
+}
+.mcoil2-container{
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.mcoil2up{
+  color: #2b9b2b;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.mcoil2up h3 {
+  color: #207a20;
+}
+.mcoil2-buttons{
+  margin-top: 70px;
+  margin-bottom: 55px;
+  cursor: pointer;
+}
+.button21{
+  border-radius: 30px 0 0 30px;
+  background-color: #2b9b2b;
+  color: white;
+  border-style: none;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: 10%;
+  margin-right: -0.6rem;
+  cursor: pointer;
+}
+.button22{
+  background-color: white;
+  color:#2b9b2b;
+  border: 1px solid #2b9b2b;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: auto;
+  cursor: pointer;
+}
+.button23{
+  border-radius: 0px 30px 30px   0;
+  background-color: white;
+  color:#2b9b2b;
+  border: 1px solid #2b9b2b;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: auto;
+  margin-left: -5px;
+  cursor: pointer;
+}
+.mcoil2down{
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+.imgsec img{
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.button24{
+  border-radius: 25px;
+  background-color: #2b9b2b;
+  color:white;
+  border-style: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+/* ----TRECIAS TURINIO BLOKAS---- */
+.mcoil3{
+  background-color: #FFFFFF;
+}
+.mcoil3-container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mcoil3up{
+  color: #828181;
+  text-decoration: none;
+  padding-bottom: 2rem;
+}
+.textslide{
+  display:flex;
+}
+button.slideleft{
+  background-color: white;
+  border: none;
+  font-size: 2rem;
+  color: #828181;
+  cursor: pointer;
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+button.slideleft:hover{
+  color: black;
+}
+button.slideright{
+  background-color: white;
+  border: none;
+  font-size: 2rem;
+  color: #828181;
+  cursor: pointer;
+  margin-right: 4rem;
+  margin-left: 5rem;
+}
+button.slideright:hover{
+  color: black;
+}
+.mcoil3 img{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.textslide p{
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+/* ----KETVIRTAS TURINIO BLOKAS---- */
+.mcoil4-container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.mcoil4{
+  background-color: #F2F0F1; width: 100%;
+  color: #828181;
+  text-decoration: none;
+  padding-bottom: 2rem;
+}
+h5 {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  margin-top: 0;
+}
+.mcoil4 img{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  width: 85%;
+}
+.button41 i{
+  padding-left: 1rem;
+}
+.button41{
+  border-radius: 25px;
+  background-color: #dddbdc;
+  color: #aaa4a4;
+  border-style: none;
+  font-size: 1rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+/* ----PENKTAS TURINIO BLOKAS---- */
+
+.mcoil5-container{
+  margin-left: 16%;
+  margin-right: 16%;
+}
+.mcoil5{
+  background-color: #54D054;
+}
+
+.mcoil5up{
+  color: #2b9b2b;
+  padding-bottom: 3rem;
+}
+.mcoil5down img{
+  max-width: 8rem;
+  max-height: 8rem;
+  border-radius: 100px;
+}
+.mcoil5down {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.mcoil5down p{
+  color:white;
+}
+.links{
+  border-radius: 25px;
+  background-color: #e7e7e7;
+  height: 2rem;
+  width: 6rem;
+  margin-left: 1rem;
+}
+.links i{
+  list-style: none;
+  padding-top: 0.2rem;
+  margin-right: 2px;
+}
+.vl {
+  border-left: 2px solid green;
+  height: 80px;
+  position:relative;
+  left: 50%;
+}
+.sub-mcoil53{
+  background-color: #3EBA3E;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.button52{
+  border-radius: 25px;
+  background-color: #54D054;
+  color:white;
+  font-size: 1.2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-style: none;
+  height: 3rem;
+  box-shadow: -3px 2px 4px 0px rgba(50, 50, 50, 0.75);
+  cursor: pointer;
+}
+/* ----FOOTERIS---- */
+.footer-container{
+  margin-left: auto;
+  margin-top: auto;
+}
+.fcoil1{
+  background-color: #333333;
+  display: flex;
+  color: #dddddd;
+  padding-bottom: 2rem;
+  margin:0;
+}
+.fcoil11down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fcoil11{
+  text-align: center;
+  max-width: 26%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.fcoil1 p{
+  margin-top: 0;
+}
+.link{
+  border-radius: 25px;
+  background-color: #e7e7e7;
+  height: 2rem;
+  width: 6rem;
+  margin-top: 1rem;
+}
+.link i{
+  list-style: none;
+  padding-top: 0.2rem;
+  margin-right: 2px;
+}
+.fcoil12{
+  margin-left: 3rem;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.fcoil12-in{
+  display:flex;
+}
+.fcoil12-in img{
+  white-space: nowrap;
+  width: 60px;
+  height: 60px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+.fcoil12 button{
+  position: absolute;
+  border-style: none;
+  border-radius: 0.2em;
+  margin-top: 1.6rem;
+  margin-left: 4.2rem;
+  color: white;
+  cursor: pointer;
+}
+.button61{
+  background-color: #54D054;
+}
+.button62{
+  background-color: #ffba00;
+}
+.button63{
+  background-color: #089eeb;
+}
+.button64{
+  background-color: #f56327;
+}
+.button65{
+  background-color: #ffba00;
+}
+.fcoil13{
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  max-width: 35%;
+  text-align: center;
+}
+.fcoil13 input{
+  background-color: #444444;
+  border-style: none;
+  color: #dddddd;
+  font-family: 'Montserrat';
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 1rem;
+  margin-bottom: 0.2rem;
+  width: 90%;
+  align-items: flex-start;
+}
+.fcoil13 textarea{
+  background-color: #444444;
+  border-style: none;
+  font-family: 'Montserrat';
+  color: #dddddd;
+  border-radius: 5px;
+  padding-left: 1rem;
+  width: 90%;
+}
+.button66{
+  width: 94%;
+  border-style: none;
+  background-color: #3EBA3E;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+/* ----ANTRA FOOTERIO DALIS---- */
+.fcoil2{
+  background-color: #222222;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.fcoil2 img{
+  width: 85%;
+}
+.fcoil3{
+  background-color: #111111;
+  text-align: center;
+  color: white;
+}
+.fcoil3 p{
+  margin:0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* -------------   +   ---------- */
+@media all and (max-width: 1200px) {
+html {
+  font-size: 100%;
+}
+.button21{
+  margin-right: -0.3rem;
+}
+.fcoil12 button{
+  margin-top: 2.8rem;
+}
+}
+/* -------------   +   ---------- */
+@media all and (max-width: 992px) {
+html {
+  font-size: 85%;
+}
+.button21{
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  width: auto;
+  margin-right: -0.6rem;
+}
+.mcoil3 img {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.button41{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.coil2{
+  width: 100%;
+  height: auto;
+}
+.mcoil5-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.button52{
+  font-size: 1.3rem;
+}
+.fcoil12 {
+  max-width: 30%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.fcoil12 button {
+  margin-top: 2.9rem;
+  margin-left: 4.9rem;
+}
+.button67{
+  width: 7rem;
+}
+}
+/* -------------   +   ---------- */
+@media all and (max-width: 768px){
+html{
+  font-size: 70%;
+}
+h1{
+  font-size: 3rem;
+}
+.background{
+  height: 60vh;
+}
+.background-text{
+  padding-top: 10rem;
+}
+.inputbar input{
+  padding-right: 0.5rem;
+}
+.inner-coil {
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.mcoil5down{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.fcoil1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.textslide p {
+padding-right: 2rem;
+padding-left: 2rem;
+}
+.mcoil3-container {
+margin-left: 7%;
+margin-right: 7%;
+}
+  button.slideright{
+margin-right: auto;
+margin-left: auto;
+}
+  button.slideleft{
+margin-right: auto;
+margin-left: auto;
+}
+.facesec{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.fcoil12 button {
+  margin-top: 2.9rem;
+  margin-left: 6rem;
+}
+.ul a:not(:first-child) {
+  display: none;
+}
+.ul a.icon {
+  display: block;
+}
+.logo img {
+  margin-left: 6rem;
+  padding-left: 6rem;
+  padding-right: 0rem;
+}
+.fcoil11{
+  max-width: 30%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.fcoil12 {
+  max-width: 35%;
+}
+.fcoil13 {
+  margin-left:0;
+  max-width: 45%;
+}
+}
+/* ----  burger  ------ */
+@media screen and (max-width: 768px) {
+.ul.responsive {
+  position: relative;
+}
+.ul.responsive .icon {
+  position: absolute;
+}
+.ul.responsive a:not(:first-child) {
+  margin-top: 1.2rem;
+  float: none;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+#home{
+  margin-top: 2rem;
+}
+.ul a:hover:not(:first-child){
+  border: none;
+}
+/* -------------   -   ---------- */
+@media all and (max-width: 480px) {
+html {
+  font-size: 50%;
+}
+.inputbar input{
+  height: 1.6rem;
+  width: 50%;
+}
+.mcoil1down {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.fcoil1{
+  display:flex;
+  flex-wrap: wrap;
+}
+.fcoil11{
+  max-width: 100%;
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+.fcoil12{
+  max-width: 100%;
+  text-align: center;
+  margin-left: 18rem;
+}
+.fcoil13{
+  max-width: 100%;
+}
+.fcoil12 button {
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+}
+/* -------------   -   ---------- */
+@media all and (max-width: 320px) {
+html {
+  font-size: 45%;
+}
+.inputbar input{
+  height: 1.6rem;
+  width: 50%;
+}
+.imgsec {
+  column-count: 1;
+}
+.fcoil1{
+  display:flex;
+  flex-wrap: wrap;
+}
+.fcoil11{
+  max-width: 100%;
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+.fcoil12{
+  max-width: 100%;
+  text-align: center;
+  margin-left: 18rem;
+
+}
+.fcoil13{
+  max-width: 100%;
+}
+.fcoil12 button {
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+.fcoil11{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.fcoil12{
+  margin-left: 10rem;
+}
+.fcoil12 button {
+  margin-left: 9rem;
+}
+}
